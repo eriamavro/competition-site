@@ -558,5 +558,31 @@
       "ja": "日本国内中心の自主制作作品が対象。日本の自主制作映画の最高峰。プロへの登竜門として知られる。"
     },
     "link": "https://pff.jp/"
+  },
+  {
+    "name": "The Rookies (Rookie Awards)",
+    "country": {
+      "en": "Australia",
+      "ja": "オーストラリア"
+    },
+    "category": {
+      "en": "Film / Media",
+      "ja": "映像全般"
+    },
+    "eligibility": "international_students",
+    "deadline": {
+      "en": "Usually April-June",
+      "ja": "例年 4月〜6月"
+    },
+    "entryFee": {
+      "en": "Free",
+      "ja": "無料"
+    },
+    "difficulty": "★★★★☆",
+    "notes": {
+      "en": "Portfolio-based international award for students and emerging creatives. Covers animation, VFX, games, motion graphics, and XR. Overall skills and creative process are evaluated rather than a single finished piece.",
+      "ja": "学生・新人クリエイター向けのポートフォリオ提出型国際アワード。アニメーション、VFX、ゲーム、モーショングラフィックス、XRなど幅広い分野に対応。単一作品だけでなく、制作過程を含めたスキル全体が評価される。"
+    },
+    "link": "https://www.therookies.co/rookieawards"
   }
 ]

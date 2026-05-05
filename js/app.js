@@ -209,8 +209,10 @@ function getLocalizedField(value, lang = isJapanese ? "ja" : "en") {
 }
 
 function formatDetail(value, type) {
+  const detail = getLocalizedField(value) || value;
+
   if (isJapanese) {
-    return value || text.unknown;
+    return detail || text.unknown;
   }
 
   const maps = {
@@ -252,7 +254,7 @@ function formatDetail(value, type) {
     },
   };
 
-  const formatted = maps[type]?.[value] || value || text.unknown;
+  const formatted = maps[type]?.[detail] || detail || text.unknown;
   return containsJapanese(formatted) ? "See official website for details." : formatted;
 }
 
@@ -288,6 +290,15 @@ function groupCompetitionsByCountry(competitions) {
     const [canadaGroup] = orderedGroups.splice(canadaIndex, 1);
     const adjustedUsIndex = orderedGroups.findIndex((group) => group.country.en === "United States");
     orderedGroups.splice(adjustedUsIndex + 1, 0, canadaGroup);
+  }
+
+  const adjustedCanadaIndex = orderedGroups.findIndex((group) => group.country.en === "Canada");
+  const australiaIndex = orderedGroups.findIndex((group) => group.country.en === "Australia");
+
+  if (adjustedCanadaIndex !== -1 && australiaIndex !== -1 && australiaIndex !== adjustedCanadaIndex + 1) {
+    const [australiaGroup] = orderedGroups.splice(australiaIndex, 1);
+    const latestCanadaIndex = orderedGroups.findIndex((group) => group.country.en === "Canada");
+    orderedGroups.splice(latestCanadaIndex + 1, 0, australiaGroup);
   }
 
   return orderedGroups.map((group) => [group.country, group.competitions]);
