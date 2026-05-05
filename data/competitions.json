@@ -30,12 +30,12 @@
       "ja": "短編全般"
     },
     "eligibility": "worldwide",
-    "deadline": "例年 11-12月",
+    "deadline": "例年 11-12月頃",
     "entryFee": "無料",
     "difficulty": "★★★★☆",
     "notes": {
       "en": "See official website for details.",
-      "ja": "海外から応募可能。16-25歳限定。英国映画協会主催。10分以内の作品。若手クリエイターの登竜門。"
+      "ja": "海外から応募可能。16-25歳限定。英国映画協会主催。短編作品が対象（時間制限等の詳細条件は年度により異なるため公式サイト参照）。若手クリエイターの登竜門。"
     },
     "link": "https://whatson.bfi.org.uk/lff/Online/default.asp"
   },
@@ -50,12 +50,12 @@
       "ja": "アニメーションーション / 視覚効果"
     },
     "eligibility": "worldwide",
-    "deadline": "例年 7-8月",
+    "deadline": "公式参照",
     "entryFee": "公式参照",
     "difficulty": "★★★☆☆",
     "notes": {
       "en": "See official website for details.",
-      "ja": "海外から応募可能。視覚効果とアニメ特化。実験的な映像や人工知能生成作品も受け入れ。"
+      "ja": "海外から応募可能。視覚効果とアニメ特化。実験的な映像や人工知能生成作品も受け入れ。締切は年度ごとに変わるため公式サイト参照。"
     },
     "link": "https://www.bfxfestival.com/"
   },
@@ -75,7 +75,7 @@
     "difficulty": "要確認",
     "notes": {
       "en": "See official website for details.",
-      "ja": "海外の学生も応募可能。学生アニメーション部門あり。応募条件、参加費、提出形式は年度により変わるため公式サイト参照。"
+      "ja": "学生・プロを問わず応募可能。学生アニメーション部門あり。応募条件、参加費、提出形式は年度により変わるため公式サイト参照。"
     },
     "link": "https://liaf.org.uk/entries"
   },
@@ -90,12 +90,12 @@
       "ja": "ドキュメンタリー"
     },
     "eligibility": "worldwide",
-    "deadline": "例年 11月〜1月",
+    "deadline": "例年 11月〜1月頃",
     "entryFee": "公式参照",
     "difficulty": "要確認",
     "notes": {
       "en": "See official website for details.",
-      "ja": "全世界から応募可能。英国の主要ドキュメンタリー映画祭。学生・インディペンデント作品の応募可否や部門条件は公式サイト参照。"
+      "ja": "全世界から応募可能。英国の主要ドキュメンタリー映画祭。学生・インディペンデント作品も応募可。各種条件は年度ごとに変わるため公式サイト参照。"
     },
     "link": "https://www.sheffdocfest.com/"
   },
@@ -110,12 +110,12 @@
       "ja": "ドキュメンタリー"
     },
     "eligibility": "conditional",
-    "deadline": "例年 6月〜7月",
+    "deadline": "例年 6月〜7月頃",
     "entryFee": "公式参照",
     "difficulty": "要確認",
     "notes": {
       "en": "See official website for details.",
-      "ja": "条件あり・要確認。学生ドキュメンタリー部門あり。居住地、在学先、提出条件などの応募可否は公式サイト参照。"
+      "ja": "条件あり・要確認。学生ドキュメンタリー部門あり。UK初上映条件等、詳細な応募条件は年度ごとに変わるため公式サイト参照。"
     },
     "link": "https://griersontrust.org/grierson-awards/"
   },
