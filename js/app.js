@@ -76,8 +76,25 @@ function renderCompetitions() {
   }
 
   competitionList.innerHTML = "";
-  filtered.forEach((competition) => {
-    competitionList.appendChild(createCompetitionCard(competition));
+  const grouped = groupCompetitionsByCountry(filtered);
+
+  grouped.forEach(([country, competitions]) => {
+    const section = document.createElement("section");
+    section.className = "country-section";
+
+    const heading = document.createElement("h2");
+    heading.className = "country-heading";
+    heading.textContent = `${getCountryFlag(country)} ${country}`;
+
+    const grid = document.createElement("div");
+    grid.className = "competition-grid";
+
+    competitions.forEach((competition) => {
+      grid.appendChild(createCompetitionCard(competition));
+    });
+
+    section.append(heading, grid);
+    competitionList.appendChild(section);
   });
 }
 
@@ -143,6 +160,40 @@ function getCategoryParts(competition) {
     .split("/")
     .map((category) => category.trim())
     .filter(Boolean);
+}
+
+function groupCompetitionsByCountry(competitions) {
+  const groups = new Map();
+
+  competitions.forEach((competition) => {
+    const country = competition.country || "Unknown";
+
+    if (!groups.has(country)) {
+      groups.set(country, []);
+    }
+
+    groups.get(country).push(competition);
+  });
+
+  return [...groups.entries()];
+}
+
+function getCountryFlag(country) {
+  const flags = {
+    Australia: "🇦🇺",
+    Canada: "🇨🇦",
+    China: "🇨🇳",
+    Croatia: "🇭🇷",
+    France: "🇫🇷",
+    Germany: "🇩🇪",
+    Japan: "🇯🇵",
+    Netherlands: "🇳🇱",
+    "South Korea": "🇰🇷",
+    "United Kingdom": "🇬🇧",
+    "United States": "🇺🇸",
+  };
+
+  return flags[country] || "🏳️";
 }
 
 function formatEligibility(eligibility) {

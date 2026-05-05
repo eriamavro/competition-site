@@ -8,7 +8,8 @@
     "difficulty": "Unknown",
     "link": "https://www.bafta.org/programmes/bafta-student-awards/",
     "notes": "日本語名: BAFTAスチューデント・フィルム賞 主催者: BAFTA（英国映画テレビ芸術アカデミー） 対象: 在学学生（認定大学経由申請） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞トロフィー・業界スクリーニング機会 国際コンペ。学生専用・日本から応募可能。個人応募不可・大学認定代表者経由で申請。アニメ・ドキュメンタリー・実写・ゲーム・イマーシブ部門。39か国800校以上から参加。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "United Kingdom"
   },
   {
     "name": "BFI Future Film Festival",
@@ -19,7 +20,8 @@
     "difficulty": "Unknown",
     "link": "https://www.bfi.org.uk/bfi-future-film-festival",
     "notes": "日本語名: BFIフューチャー・フィルム・フェスティバル 主催者: British Film Institute（英国映画協会） 対象: 16〜25歳 言語対応: 英語（日本語非対応） 賞金・副賞: 各部門賞：賞金あり 国際コンペ。16〜25歳専用・日本から応募可能。アニメ・ドキュメンタリー・実験映像・マイクロショート等部門。10分以内。",
-    "eligibility": "international"
+    "eligibility": "international",
+    "country": "United Kingdom"
   },
   {
     "name": "BFI London Film Festival – Short Film Competition",
@@ -30,7 +32,8 @@
     "difficulty": "Unknown",
     "link": "https://www.bfi.org.uk/bfi-london-film-festival",
     "notes": "日本語名: BFIロンドン映画祭（短編コンペ） 主催者: British Film Institute（英国） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：賞金あり 英国最大の映画祭内短編部門。日本から応募可能。アニメ・ドキュメンタリー含む。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "United Kingdom"
   },
   {
     "name": "BFX Festival",
@@ -41,7 +44,8 @@
     "difficulty": "Unknown",
     "link": "https://www.bfxfestival.com/",
     "notes": "日本語名: BFXフェスティバル（アニメーション・VFX） 主催者: BFX Festival（英国・ボーンマス大学） 対象: 学生・インディペンデントアーティスト 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：トロフィー・副賞 国際コンペ・日本から応募可能。アニメーション・VFX特化。ニュータレント・国際短編アニメ・実験VFX・AI生成アニメ等部門あり。FilmFreeway経由申請。",
-    "eligibility": "international"
+    "eligibility": "international",
+    "country": "United Kingdom"
   },
   {
     "name": "London International Animation Festival (LIAF) – The Best of the Next",
@@ -52,7 +56,8 @@
     "difficulty": "Unknown",
     "link": "https://liaf.org.uk/entries",
     "notes": "日本語名: ロンドン国際アニメーション映画祭（LIAF）スチューデント部門 主催者: London International Animation Festival（英国） 対象: 映像系学校・大学の在学生 言語対応: 英語（日本語非対応） 賞金・副賞: 優秀作品：フェスティバル上映・表彰 国際コンペ・日本から応募可能。学生専用。世界の映画学校から優秀学生アニメ26点を選出・上映。在学証明必要。",
-    "eligibility": "international_students"
+    "eligibility": "international_students",
+    "country": "United Kingdom"
   },
   {
     "name": "Sheffield International Documentary Festival (SheffDocFest)",
@@ -63,7 +68,8 @@
     "difficulty": "Unknown",
     "link": "https://www.sheffdocfest.com/",
     "notes": "日本語名: シェフィールド国際ドキュメンタリー映画祭 主催者: Sheffield DocFest（英国） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 各部門賞：賞金あり 国際コンペ・日本から応募可能。英国最大・最権威のドキュメンタリー映画祭。学生・インディ応募可。ワールドプレミア優先。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "United Kingdom"
   },
   {
     "name": "Animex Screen",
@@ -74,7 +80,8 @@
     "difficulty": "Unknown",
     "link": "https://animex.tees.ac.uk/",
     "notes": "日本語名: アニメックス・スクリーン（ティーズサイド大学） 主催者: Teesside University（英国ティーズサイド大学） 対象: 学生（学部・大学院・PhD）・18歳以下の若者 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：表彰・上映機会 国際コンペ・日本から応募可能。学生専用。2D・3D・CG・ストップモーション・VFX等部門あり。FilmFreeway経由申請。",
-    "eligibility": "international_students"
+    "eligibility": "international_students",
+    "country": "United Kingdom"
   },
   {
     "name": "Grierson Awards – Best Student Documentary",
@@ -85,7 +92,8 @@
     "difficulty": "Unknown",
     "link": "https://griersontrust.org/grierson-awards/",
     "notes": "日本語名: グリアソン・アワード（英国ドキュメンタリー賞） 主催者: The Grierson Trust（英国） 対象: 学生（学生ドキュメンタリー部門） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：トロフィー・表彰 英国最権威のドキュメンタリー賞。学生部門あり。⚠️主に英国在住・在学者向け。海外からの応募可否は要公式サイト確認。プロ応募可。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "United Kingdom"
   },
   {
     "name": "Annecy International Animated Film Festival",
@@ -96,7 +104,8 @@
     "difficulty": "Unknown",
     "link": "https://www.annecy.org/",
     "notes": "日本語名: アヌシー国際アニメーション映画祭 主催者: CITIA（フランス・アヌシー） 対象: 制限なし（学生部門あり） 言語対応: 英語・フランス語（日本語非対応） 賞金・副賞: クリスタル賞・学生賞：トロフィー・副賞 世界最大・最権威のアニメーション映画祭（仏）。日本から応募可能。学生フィルム部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "France"
   },
   {
     "name": "Cinéfondation (Cannes Film Festival)",
@@ -107,7 +116,8 @@
     "difficulty": "Unknown",
     "link": "https://www.festival-cannes.com/cinefondation/",
     "notes": "日本語名: シネフォンダシオン（カンヌ映画祭） 主催者: カンヌ国際映画祭（フランス） 対象: 映像系学校・大学在籍学生 言語対応: 英語・フランス語（日本語非対応） 賞金・副賞: 1位：15,000ユーロ、2位：11,250ユーロ、3位：7,500ユーロ 世界最高権威の映画祭内学生部門（仏）。日本から応募可能。在学証明必要。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "France"
   },
   {
     "name": "Animafest Zagreb",
@@ -118,7 +128,8 @@
     "difficulty": "Unknown",
     "link": "https://www.animafest.hr/",
     "notes": "日本語名: アニマフェスト・ザグレブ 主催者: ザグレブ・フィルム（クロアチア） 対象: 制限なし（学生部門あり） 言語対応: 英語（日本語非対応） 賞金・副賞: グランプリ・学生賞：トロフィー・副賞 欧州権威あるアニメ映画祭（クロアチア）。日本から応募可能。学生部門（短編）あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Croatia"
   },
   {
     "name": "International Documentary Film Festival Amsterdam (IDFA)",
@@ -129,7 +140,8 @@
     "difficulty": "Unknown",
     "link": "https://www.idfa.nl/",
     "notes": "日本語名: IDFA（アムステルダム国際ドキュメンタリー映画祭） 主催者: IDFA（オランダ・アムステルダム） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 各部門賞：賞金あり 世界最大のドキュメンタリー映画祭（蘭）。日本から応募可能。学生応募可。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Netherlands"
   },
   {
     "name": "Clermont-Ferrand International Short Film Festival",
@@ -140,7 +152,8 @@
     "difficulty": "Unknown",
     "link": "https://clermont-filmfest.org/",
     "notes": "日本語名: クレルモン・フェラン国際短編映画祭 主催者: Sauve qui peut le court métrage（フランス） 対象: 制限なし（学生応募可） 言語対応: 英語・フランス語（日本語非対応） 賞金・副賞: グランプリ：賞金あり 世界最大の短編映画祭（仏）。日本から応募可能。国際・国内部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "France"
   },
   {
     "name": "Berlinale Generation (Berlin International Film Festival)",
@@ -151,7 +164,8 @@
     "difficulty": "Unknown",
     "link": "https://www.berlinale.de/en/programme/sections/generation/",
     "notes": "日本語名: ベルリナーレ・ゲネレーション（ベルリン国際映画祭） 主催者: ベルリン国際映画祭（ドイツ） 対象: 子ども・若者向け作品（学生応募可） 言語対応: 英語・ドイツ語（日本語非対応） 賞金・副賞: クリスタル・ベア賞 ベルリン映画祭内若者向け部門（独）。日本から応募可能。子ども・青年向け作品が対象。学生応募可。",
-    "eligibility": "international"
+    "eligibility": "international",
+    "country": "Germany"
   },
   {
     "name": "Student Academy Awards",
@@ -162,7 +176,8 @@
     "difficulty": "Unknown",
     "link": "https://www.oscars.org/student-academy-awards",
     "notes": "日本語名: スチューデント・アカデミー賞 主催者: Academy of Motion Picture Arts and Sciences（米国映画芸術科学アカデミー） 対象: 在校学生（認定校） 言語対応: 英語のみ 賞金・副賞: 金賞：5,000ドル、銀賞：3,000ドル、銅賞：2,000ドル 国際コンペ（米）。学生専用・認定校在籍必要。日本から応募可能。アニメ・ドキュメンタリー・ナラティブ・実験映像部門。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "United States"
   },
   {
     "name": "Ottawa International Animation Festival (OIAF)",
@@ -173,7 +188,8 @@
     "difficulty": "Unknown",
     "link": "https://www.animationfestival.ca/",
     "notes": "日本語名: オタワ国際アニメーションフェスティバル 主催者: オタワ国際アニメーションフェスティバル（カナダ） 対象: 制限なし（学生部門あり） 言語対応: 英語・フランス語（日本語非対応） 賞金・副賞: グランプリ・学生賞：賞金あり 北米最大のアニメーション映画祭（加）。日本から応募可能。学生部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Canada"
   },
   {
     "name": "Hot Docs Canadian International Documentary Festival",
@@ -184,7 +200,8 @@
     "difficulty": "Unknown",
     "link": "https://hotdocs.ca/",
     "notes": "日本語名: ホット・ドックス カナダ国際ドキュメンタリー映画祭 主催者: Hot Docs（カナダ） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 賞金あり（各部門） 北米最大のドキュメンタリー専門映画祭（加）。日本から応募可能。学生応募可。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Canada"
   },
   {
     "name": "Seoul International Cartoon and Animation Festival (SICAF)",
@@ -195,7 +212,8 @@
     "difficulty": "Unknown",
     "link": "https://www.sicaf.com/",
     "notes": "日本語名: シカフ（ソウル国際漫画・アニメーション映画祭） 主催者: 韓国コンテンツ振興院（KOCCA）ほか 対象: 制限なし（学生部門あり） 言語対応: 英語・韓国語（日本語非対応） 賞金・副賞: グランプリ賞金あり アジア代表的アニメーション映画祭（韓）。日本から応募可能。学生部門・一般部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "South Korea"
   },
   {
     "name": "CG Student Awards (CGSA)",
@@ -206,7 +224,8 @@
     "difficulty": "Unknown",
     "link": "https://cgstudentaward.com/",
     "notes": "日本語名: CGスチューデント・アワード 主催者: cgstudentaward.com（国際） 対象: 学生のみ（世界中の映像・CG系学生） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：賞金あり 国際コンペ。学生専用・日本から応募可能。アニメーション・VFX・ゲームデザイン部門など。",
-    "eligibility": "international_students"
+    "eligibility": "international_students",
+    "country": "Australia"
   },
   {
     "name": "ACM SIGGRAPH Student Research Competition",
@@ -217,7 +236,8 @@
     "difficulty": "Unknown",
     "link": "https://s2025.siggraph.org/",
     "notes": "日本語名: SIGGRAPH スチューデント・リサーチ・コンペティション 主催者: ACM SIGGRAPH（米国） 対象: 学生のみ（ACM学生会員） 言語対応: 英語（日本語非対応） 賞金・副賞: 賞金あり（各部門） 国際コンペ（米）。CG・VFX技術研究対象。日本から応募可能。ACM学生会員資格必要。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "United States"
   },
   {
     "name": "Palm Springs International ShortFest",
@@ -228,7 +248,8 @@
     "difficulty": "Unknown",
     "link": "https://www.psfilmfest.org/shortfest",
     "notes": "日本語名: パーム・スプリングス国際短編映画祭 主催者: Palm Springs International Film Society（米国） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：賞金あり 国際コンペ（米）。日本から応募可能。アカデミー賞公認（ライブアクション・アニメ部門）。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "United States"
   },
   {
     "name": "Tribeca Festival",
@@ -239,7 +260,8 @@
     "difficulty": "Unknown",
     "link": "https://tribecafilm.com/festival",
     "notes": "日本語名: トライベッカ映画祭 主催者: Tribeca Festival（米国・ニューヨーク） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：賞金あり 国際映画祭（米・ニューヨーク）。日本から応募可能。短編アニメ・ドキュメンタリー部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "United States"
   },
   {
     "name": "Visual Effects Society Awards (VES Awards)",
@@ -250,7 +272,8 @@
     "difficulty": "Unknown",
     "link": "https://www.visualeffectssociety.com/ves-awards/",
     "notes": "日本語名: VES アワード（ビジュアル・エフェクツ・ソサイエティ） 主催者: Visual Effects Society（米国） 対象: 制限なし（VES会員または VES会員推薦） 言語対応: 英語（日本語非対応） 賞金・副賞: VES賞：トロフィー VFX業界最高権威賞（米）。日本から応募可能。プロ向けだが学生でもVES会員申請可。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "United States"
   },
   {
     "name": "Asia Pacific Screen Awards (APSA)",
@@ -261,7 +284,8 @@
     "difficulty": "Unknown",
     "link": "https://www.asiapacificscreenawards.com/",
     "notes": "日本語名: アジア太平洋映画賞（APSA） 主催者: Asia Pacific Screen Awards（オーストラリア） 対象: 制限なし（学生応募可） 言語対応: 英語（日本語非対応） 賞金・副賞: 部門賞：賞金あり アジア太平洋地域対象の国際賞（豪）。日本から応募可能。アニメ・ドキュメンタリー部門あり。プロ応募可。",
-    "eligibility": "international"
+    "eligibility": "international",
+    "country": "Australia"
   },
   {
     "name": "International Student Film and Video Festival (ISFVF)",
@@ -272,7 +296,8 @@
     "difficulty": "Unknown",
     "link": "https://isfvf.com/",
     "notes": "日本語名: 国際学生映画祭（ISFVF） 主催者: 北京電影学院（中国） 対象: 在校学生（映像系学校・大学） 言語対応: 英語・中国語対応 賞金・副賞: グランプリ：賞状・副賞 アジア国際コンペ（中国・北京）。日本から応募可能。在学証明必要。アニメ・ドキュメンタリー・実写部門あり。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "China"
   },
   {
     "name": "Japan Media Arts Festival",
@@ -283,7 +308,8 @@
     "difficulty": "Unknown",
     "link": "https://j-mediaarts.jp/",
     "notes": "日本語名: 文化庁メディア芸術祭 主催者: 文化庁（Agency for Cultural Affairs） 対象: 制限なし（学生応募可） 言語対応: 日本語・英語対応 賞金・副賞: 大賞：100万円、優秀賞：20万円 ほか 国内開催・国際公募。プロ応募可。アニメーション・マンガ・アート・エンタテインメント部門あり。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "Hiroshima International Animation Festival",
@@ -294,7 +320,8 @@
     "difficulty": "Unknown",
     "link": "https://hiroanim.org/",
     "notes": "日本語名: 広島国際アニメーションフェスティバル 主催者: 広島国際アニメーションフェスティバル実行委員会 対象: 制限なし（学生部門あり） 言語対応: 日本語・英語対応 賞金・副賞: グランプリ賞金あり／学生部門賞あり 国際コンペ。2年に1度（偶数年）8月開催。学生部門・一般部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "Tokyo International Anime Award Festival (TAAF)",
@@ -305,7 +332,8 @@
     "difficulty": "Unknown",
     "link": "https://animefestival.jp/",
     "notes": "日本語名: 東京アニメアワードフェスティバル（TAAF） 主催者: 東京都・（公財）東京都歴史文化財団 東京都現代美術館 対象: 制限なし（学生応募可） 言語対応: 日本語・英語対応 賞金・副賞: グランプリ：トロフィー・表彰状 国際コンペ（東京・3月開催）。短編・学生・TVシリーズ・劇場部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "SKIPCity International D-Cinema Festival",
@@ -316,7 +344,8 @@
     "difficulty": "Unknown",
     "link": "https://skipcity-dcf.jp/",
     "notes": "日本語名: SKIPシティ国際Dシネマ映画祭 主催者: SKIPシティ国際Dシネマ映画祭実行委員会（埼玉県・川口市） 対象: 制限なし（学生部門あり） 言語対応: 日本語・英語対応 賞金・副賞: グランプリ：30万円 ほか 国際コンペ。実写・短編・学生部門。デジタルシネマ作品対象。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "Pia Film Festival (PFF)",
@@ -327,7 +356,8 @@
     "difficulty": "Unknown",
     "link": "https://pff.jp/",
     "notes": "日本語名: ぴあフィルムフェスティバル（PFF） 主催者: ぴあ株式会社 対象: 制限なし（学生・インディーズ中心） 言語対応: 日本語のみ 賞金・副賞: グランプリ：30万円 ほか 国内公募・東京開催。アマチュア・学生インディーズ向け老舗フェス。実写中心だが映像全般可。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "Japan"
   },
   {
     "name": "Eigabunren Award",
@@ -338,7 +368,8 @@
     "difficulty": "Unknown",
     "link": "https://www.eibunren.or.jp/",
     "notes": "日本語名: 映文連アワード 主催者: 一般社団法人映像文化製作者連盟（映文連） 対象: 制限なし（学生応募可） 言語対応: 日本語のみ 賞金・副賞: グランプリ・部門賞：賞状・副賞 国内公募。ドキュメンタリー・企業VP・アニメ等幅広い部門。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "Short Shorts Film Festival & Asia (SSFF & ASIA)",
@@ -349,7 +380,8 @@
     "difficulty": "Unknown",
     "link": "https://www.shortshorts.org/",
     "notes": "日本語名: ショートショートフィルムフェスティバル＆アジア（SSFF & ASIA） 主催者: 株式会社パシフィックボイス 対象: 制限なし（学生応募可） 言語対応: 日本語・英語対応 賞金・副賞: グランプリ：賞金あり 国際コンペ（東京・6月）。アカデミー賞公認。アニメ・ドキュメンタリー部門あり。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "Yamagata International Documentary Film Festival (YIDFF)",
@@ -360,7 +392,8 @@
     "difficulty": "Unknown",
     "link": "https://www.yidff.jp/",
     "notes": "日本語名: 山形国際ドキュメンタリー映画祭（YIDFF） 主催者: 山形国際ドキュメンタリー映画祭 対象: 制限なし（学生応募可） 言語対応: 日本語・英語対応 賞金・副賞: 大賞（ロバート＆フランシス・フラハティ賞）：賞金あり 国際コンペ。2年に1度（奇数年）10月開催。ドキュメンタリー専門・最権威の一つ。プロ応募可。",
-    "eligibility": "worldwide"
+    "eligibility": "worldwide",
+    "country": "Japan"
   },
   {
     "name": "CG-ARTS Student CG Contest",
@@ -371,7 +404,8 @@
     "difficulty": "Unknown",
     "link": "https://www.cgarts.or.jp/s_cg/",
     "notes": "日本語名: 学生CGコンテスト（CG-ARTS） 主催者: 公益財団法人画像情報教育振興協会（CG-ARTS） 対象: 学生のみ（高校生・専門学校生・大学生・大学院生） 言語対応: 日本語のみ 賞金・副賞: 最優秀賞：賞状・副賞 国内公募。学生専用。CGアニメーション・インタラクティブ・静止画など幅広い部門。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "Japan"
   },
   {
     "name": "DigiCon6 ASIA",
@@ -382,7 +416,8 @@
     "difficulty": "Unknown",
     "link": "https://www.tv-tokyo.co.jp/broad_biz/digicon6/",
     "notes": "日本語名: DigiCon6 ASIA 主催者: テレビ東京・BS-TXほか 対象: 15〜35歳（学生・若手クリエイター） 言語対応: 日本語・英語対応 賞金・副賞: グランプリ：賞金あり（日本大賞など） アジア国際コンペ。若手・学生向け。アジア各国から応募可能。",
-    "eligibility": "international"
+    "eligibility": "international",
+    "country": "Japan"
   },
   {
     "name": "NHK Video Contest (NHK Eizou Koshien)",
@@ -393,7 +428,8 @@
     "difficulty": "Unknown",
     "link": "https://www.nhk.or.jp/koshien/",
     "notes": "日本語名: NHK学生ロボコン／NHK映像コンテスト（NHK映像甲子園） 主催者: NHK（日本放送協会） 対象: 高校生のみ 言語対応: 日本語のみ 賞金・副賞: グランプリ：表彰・副賞 国内公募。高校生専用。ドキュメンタリー・ドラマ等。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "Japan"
   },
   {
     "name": "Eizou Koshien (Harima Location Contest)",
@@ -404,7 +440,8 @@
     "difficulty": "Unknown",
     "link": "https://www.harima-eizou.jp/",
     "notes": "日本語名: 映像甲子園 はりまロケ大作戦！ 主催者: 播磨科学公園都市圏域定住自立圏形成推進協議会 対象: 中学生・高校生・大学生 言語対応: 日本語のみ 賞金・副賞: 賞状・副賞 国内公募（兵庫県播磨地域ロケ条件あり）。学生向け。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "Japan"
   },
   {
     "name": "All Japan Student Video Contest",
@@ -415,6 +452,7 @@
     "difficulty": "Unknown",
     "link": "https://ajsvf.com/",
     "notes": "日本語名: 学生映像コンテスト（全日本学生映像コンテスト） 主催者: 全日本学生映像コンテスト実行委員会 対象: 学生のみ（大学・専門学校） 言語対応: 日本語のみ 賞金・副賞: 最優秀賞：副賞あり 国内公募。学生専用。",
-    "eligibility": "conditional"
+    "eligibility": "conditional",
+    "country": "Japan"
   }
 ]
