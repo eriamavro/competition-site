@@ -47,7 +47,7 @@
     },
     "category": {
       "en": "Animation / VFX",
-      "ja": "アニメーションーション / 視覚効果"
+      "ja": "アニメーション / VFX"
     },
     "eligibility": "worldwide",
     "deadline": "公式参照",
@@ -55,7 +55,7 @@
     "difficulty": "★★★☆☆",
     "notes": {
       "en": "See official website for details.",
-      "ja": "海外から応募可能。視覚効果とアニメ特化。実験的な映像や人工知能生成作品も受け入れ。締切は年度ごとに変わるため公式サイト参照。"
+      "ja": "海外から応募可能。VFXとアニメーションに特化。実験的な映像や人工知能生成作品も受け入れ。締切は年度ごとに変わるため公式サイト参照。"
     },
     "link": "https://www.bfxfestival.com/"
   },
@@ -127,7 +127,7 @@
     },
     "category": {
       "en": "Animation / VFX",
-      "ja": "アニメーションーション / 視覚効果"
+      "ja": "アニメーション / VFX"
     },
     "eligibility": "international_students",
     "deadline": "例年 8月",
@@ -135,7 +135,7 @@
     "difficulty": "要確認",
     "notes": {
       "en": "See official website for details.",
-      "ja": "海外の学生も応募可能。二次元、三次元、コンピューターグラフィックス、ストップモーション、視覚効果などの学生作品が対象。最新の部門条件は公式サイト参照。"
+      "ja": "海外の学生も応募可能。二次元、三次元、コンピューターグラフィックス、ストップモーション、VFXなどの学生作品が対象。最新の部門条件は公式サイト参照。"
     },
     "link": "https://animex.tees.ac.uk/"
   },
@@ -287,7 +287,7 @@
     },
     "category": {
       "en": "Technology / VFX",
-      "ja": "技術 / 視覚効果"
+      "ja": "技術 / VFX"
     },
     "eligibility": "conditional",
     "deadline": "例年 1-3月",
@@ -307,7 +307,7 @@
     },
     "category": {
       "en": "Technology / VFX",
-      "ja": "技術 / 視覚効果"
+      "ja": "技術 / VFX"
     },
     "eligibility": "conditional",
     "deadline": "公式参照",

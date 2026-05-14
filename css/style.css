@@ -150,6 +150,52 @@ h1 {
   margin-top: 14px;
 }
 
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  border-top: 1px solid var(--line);
+  padding: 24px 16px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.site-footer p {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.site-footer a {
+  color: var(--muted);
+  text-decoration: none;
+  text-underline-offset: 4px;
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.site-footer .operator-link {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface);
+  padding: 6px 10px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.site-footer .operator-link:hover {
+  border-color: var(--accent);
+  background: var(--surface-muted);
+  text-decoration: none;
+}
+
 .toolbar {
   display: flex;
   align-items: flex-end;
