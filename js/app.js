@@ -1,5 +1,6 @@
 const isJapanese = document.documentElement.lang === "ja";
 const DATA_PATH = isJapanese ? "../data/competitions.json" : "data/competitions.json";
+const STATUS_PATH = isJapanese ? "../data/watch-status.json" : "data/watch-status.json";
 const text = {
   all: isJapanese ? "すべて" : "All",
   count: (count) => isJapanese ? `${count}件` : `${count} ${count === 1 ? "competition" : "competitions"}`,
@@ -13,6 +14,26 @@ const text = {
   officialSite: isJapanese ? "公式サイト" : "Official Site",
   notesHeading: isJapanese ? "解説" : "Notes",
   officialReference: isJapanese ? "公式サイト参照" : "See official website for details.",
+  watchSummary: {
+    none: isJapanese
+      ? "公式サイトの自動確認はまだ実行されていません。"
+      : "Automatic official-site checks have not run yet.",
+    latest: (date, changed, manual, errors) => {
+      if (isJapanese) {
+        return `最終自動確認: ${date} / 更新検知: ${changed}件 / 公式サイト確認: ${manual}件 / 自動確認できない項目: ${errors}件`;
+      }
+
+      return `Last automatic check: ${date} / Updates detected: ${changed} / Check official site: ${manual} / Could not auto-check: ${errors}`;
+    },
+  },
+  watch: {
+    updated: isJapanese ? "公式サイトに変更あり" : "Official site changed",
+    checked: isJapanese ? "確認済み" : "Checked",
+    manual: isJapanese ? "公式サイトで確認" : "Check official site",
+    error: isJapanese ? "自動確認できませんでした" : "Could not auto-check",
+    lastChecked: isJapanese ? "最終確認" : "Last checked",
+    changedAt: isJapanese ? "更新検知" : "Update detected",
+  },
   labels: {
     eligibility: isJapanese ? "対象地域" : "Eligibility",
     deadline: isJapanese ? "締切" : "Deadline",
@@ -30,12 +51,14 @@ const text = {
 
 const state = {
   competitions: [],
+  watchStatus: {},
   activeCategory: text.all,
 };
 
 const categoryFilters = document.querySelector("#categoryFilters");
 const competitionList = document.querySelector("#competitionList");
 const resultCount = document.querySelector("#resultCount");
+const watchSummary = document.querySelector("#watchSummary");
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -48,7 +71,9 @@ async function init() {
     }
 
     state.competitions = await response.json();
+    state.watchStatus = await loadWatchStatus();
     renderFilters();
+    renderWatchSummary();
     renderCompetitions();
   } catch (error) {
     competitionList.innerHTML = `
@@ -59,6 +84,39 @@ async function init() {
     resultCount.textContent = "";
     console.error("Failed to load competitions:", error);
   }
+}
+
+async function loadWatchStatus() {
+  try {
+    const response = await fetch(STATUS_PATH);
+    if (!response.ok) return {};
+    return await response.json();
+  } catch (error) {
+    console.warn("Failed to load watch status:", error);
+    return {};
+  }
+}
+
+function renderWatchSummary() {
+  if (!watchSummary) return;
+
+  const statuses = Object.values(state.watchStatus);
+
+  if (statuses.length === 0) {
+    watchSummary.textContent = text.watchSummary.none;
+    return;
+  }
+
+  const latestCheck = statuses
+    .map((status) => status.checkedAt)
+    .filter(Boolean)
+    .sort()
+    .at(-1);
+  const changed = statuses.filter((status) => status.changed).length;
+  const manual = statuses.filter((status) => status.status === "manual").length;
+  const errors = statuses.filter((status) => status.status === "error" || status.status === "http_error").length;
+
+  watchSummary.textContent = text.watchSummary.latest(formatDateTime(latestCheck), changed, manual, errors);
 }
 
 function renderFilters() {
@@ -131,6 +189,13 @@ function renderCompetitions() {
 function createCompetitionCard(competition) {
   const card = document.createElement("article");
   card.className = "competition-card";
+  const watchStatus = getWatchStatus(competition);
+
+  if (watchStatus?.changed) {
+    card.classList.add("has-update");
+  } else if (watchStatus?.status === "error" || watchStatus?.status === "http_error") {
+    card.classList.add("has-watch-error");
+  }
 
   const body = document.createElement("div");
   body.className = "card-body";
@@ -141,6 +206,8 @@ function createCompetitionCard(competition) {
 
   const title = document.createElement("h3");
   title.textContent = competition.name || text.unnamed;
+
+  const statusRow = createWatchStatusRow(watchStatus);
 
   const metaList = document.createElement("dl");
   metaList.className = "meta-list";
@@ -163,7 +230,13 @@ function createCompetitionCard(competition) {
 
   notesBlock.append(notesHeading, notes);
 
-  body.append(category, title, metaList, notesBlock);
+  body.append(category, title);
+
+  if (statusRow) {
+    body.appendChild(statusRow);
+  }
+
+  body.append(metaList, notesBlock);
 
   if (competition.link) {
     const link = document.createElement("a");
@@ -177,6 +250,41 @@ function createCompetitionCard(competition) {
 
   card.appendChild(body);
   return card;
+}
+
+function getWatchStatus(competition) {
+  return state.watchStatus[competition.link] || state.watchStatus[competition.name] || null;
+}
+
+function createWatchStatusRow(status) {
+  if (!status || !status.checkedAt) return null;
+
+  const row = document.createElement("div");
+  row.className = "watch-row";
+
+  const badge = document.createElement("span");
+  badge.className = "watch-badge";
+
+  if (status.changed) {
+    badge.classList.add("is-updated");
+    badge.textContent = text.watch.updated;
+  } else if (status.status === "manual") {
+    badge.classList.add("is-manual");
+    badge.textContent = text.watch.manual;
+  } else if (status.status === "error" || status.status === "http_error") {
+    badge.classList.add("is-error");
+    badge.textContent = text.watch.error;
+  } else {
+    badge.textContent = text.watch.checked;
+  }
+
+  const date = document.createElement("span");
+  date.className = "watch-date";
+  const label = status.changed && status.changedAt ? text.watch.changedAt : text.watch.lastChecked;
+  date.textContent = `${label}: ${formatDateTime(status.changedAt || status.checkedAt)}`;
+
+  row.append(badge, date);
+  return row;
 }
 
 function createMetaRow(label, value) {
@@ -260,6 +368,23 @@ function formatDetail(value, type) {
 
 function containsJapanese(value) {
   return /[\u3040-\u30ff\u3400-\u9fff]/.test(String(value));
+}
+
+function formatDateTime(value) {
+  if (!value) return text.unknown;
+
+  try {
+    return new Intl.DateTimeFormat(isJapanese ? "ja-JP" : "en-GB", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZoneName: "short",
+    }).format(new Date(value));
+  } catch {
+    return value;
+  }
 }
 
 function groupCompetitionsByCountry(competitions) {

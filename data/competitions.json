@@ -17,6 +17,7 @@
       "en": "See official website for details.",
       "ja": "原則、認定校経由。個人応募は事前相談。世界最高峰の学生賞。映画のほかゲーム部門、イマーシブ部門あり。各校に提出数上限あり。"
     },
+    "watchMode": "manual",
     "link": "https://www.bafta.org/programmes/bafta-student-awards/"
   },
   {
@@ -37,6 +38,7 @@
       "en": "See official website for details.",
       "ja": "海外から応募可能。16-25歳限定。英国映画協会主催。短編作品が対象（時間制限等の詳細条件は年度により異なるため公式サイト参照）。若手クリエイターの登竜門。"
     },
+    "watchMode": "manual",
     "link": "https://whatson.bfi.org.uk/lff/Online/default.asp"
   },
   {
@@ -157,7 +159,7 @@
       "en": "See official website for details.",
       "ja": "全世界から応募可能。学生卒業制作が対象。世界最大のアニメ祭。学生部門入賞はプロへの最短ルート。"
     },
-    "link": "https://www.annecy.org/"
+    "link": "https://www.annecyfestival.com/en/take-part/submit-film"
   },
   {
     "name": "La Cinef (Cannes)",
@@ -197,7 +199,7 @@
       "en": "See official website for details.",
       "ja": "全世界から応募可能。欧州の主要アニメーション映画祭。学生作品も応募できる。応募部門、締切、提出条件は公式サイト参照。"
     },
-    "link": "https://www.animafest.hr/en/2026/news/read/animafest_zagreb_2026_presents_selected_films_in_grand_competition_short_film_student_and_croatian_film_competitions"
+    "link": "https://www.animafest.hr/en"
   },
   {
     "name": "Clermont-Ferrand International Short Film Festival",
